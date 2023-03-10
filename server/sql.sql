@@ -1,0 +1,7 @@
+CREATE DATABASE db_gerenciador_tarefas;
+
+CREATE TABLE db_gerenciador_tarefas.tarefas(
+  id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+  text VARCHAR(70) NOT NULL,
+  data_inc DATETIME DEFAULT CURRENT_TIMESTAMP NOT NULL,
+);
